@@ -7,11 +7,30 @@
 <body>
     <h1>Contact Me</h1>
     <img src="../Assets/careerImage.jpg" alt="Profile Picture" height="200"/>
-    <h2>Email:</h2>
-    <p>
-        <a href="mailto:your.email@example.com">your.email@example.com</a>
-    </p>
+    
+    <h2>Contact Information</h2>
+    <ul>
+        <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        <li><strong>Phone:</strong> (555) 123-4567</li>
+        <li><strong>Location:</strong> New Jersey, USA</li>
+    </ul>
+    
+    <h2>Send Me a Message</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+        
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br /><br />
+        
+        <input type="submit" value="Send Message" />
+    </form>
+    
+    <hr />
     <a href="about.html">About Me</a>
-    <a href="../index.html">Home</a>
+    <a href="../index.html">Back to Resume</a>
 </body> 
 </html>
